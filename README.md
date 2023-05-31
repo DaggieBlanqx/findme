@@ -23,10 +23,25 @@ npm install
 
 To run your project, navigate to the directory and run one of the following npm commands.
 
--   cd findme
--   npm run android
--   npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
--   npm run web
+
+```bash
+    cd findme
+    npm run start
+```
+
+Other npm commands:
+
+```bash
+    npm run android
+```
+
+```bash
+ npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+ ```
+
+```bash
+ npm run web
+ ```
 
 
 ## Help information
