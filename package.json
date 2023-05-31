@@ -1,0 +1,51 @@
+{
+    "name": "findme",
+    "description": "Stay connected and ensure safety with FindMe, the app that tracks and shares real-time locations of loved ones",
+    "version": "1.0.0",
+    "private": true,
+    "main": "node_modules/expo/AppEntry.js",
+    "author": "Daggie Blanqx",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daggieblanqx/findme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/daggieblanqx/findme/issues"
+    },
+    "homepage": "https://github.com/daggieblanqx/findme#readme",
+    "license": "MIT",
+    "scripts": {
+        "android": "expo start --android",
+        "dev:format": "npx prettier --write . --ignore-path .gitignore --cache",
+        "ios": "expo start --ios",
+        "quickpush": "git add . ;git commit -m 'quick push' ; git push",
+        "start": "expo start",
+        "web": "expo start --web"
+    },
+    "prettier": {
+        "bracketSpacing": false,
+        "printWidth": 100,
+        "semi": true,
+        "singleQuote": false,
+        "tabWidth": 4,
+        "trailingComma": "es5"
+    },
+    "dependencies": {
+        "@eva-design/eva": "^2.2.0",
+        "@ui-kitten/components": "^5.3.1",
+        "expo": "~48.0.15",
+        "expo-background-fetch": "~11.1.1",
+        "expo-device": "~5.2.1",
+        "expo-location": "~15.1.1",
+        "expo-network": "~5.2.1",
+        "expo-status-bar": "~1.4.4",
+        "react": "18.2.0",
+        "react-native": "0.71.8",
+        "react-native-svg": "13.4.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.0",
+        "prettier": "^2.8.7",
+        "prettier-plugin-packagejson": "^2.4.3"
+    }
+}
