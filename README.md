@@ -18,14 +18,13 @@ git clone git@github.com:DaggieBlanqx/findme.git
 
 First install all dependencies
 ```bash
-npm install
+    cd findme; npm install
 ```
 
 To run your project, navigate to the directory and run one of the following npm commands.
 
 
 ```bash
-    cd findme
     npm run start
 ```
 
@@ -43,6 +42,9 @@ Other npm commands:
  npm run web
  ```
 
+
+## Backend code
+- https://replit.com/@loisekimwe/FINDME
 
 ## Help information
 
